@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# uv
+.uv-cache/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Workspace (sandboxed agent ops — never commit contents)
+workspace/*
+!workspace/.gitkeep
+
+# OS
+.DS_Store
